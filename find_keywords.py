@@ -1,5 +1,27 @@
-keywords = {"break", "case", "continue", "default", "defer", "else", "for", 
-"func", "goto", "if", "map", "range", "return", "struct", "type", "elif", "else"
+keywords = {"break",
+    "case",
+    "continue",
+    "default",
+    "defer",
+    "else",
+    "for", 
+    "func",
+    "goto",
+    "if",
+    "map",
+    "range",
+    "return",
+    "struct",
+    "type",
+    "elif",
+    "else",
+    "var",
+    "super",
+    "self",
+    "private",
+    "public",
+    "let",
+    "const"
 }
 
 getkeyword = input('Enter the word: ')
