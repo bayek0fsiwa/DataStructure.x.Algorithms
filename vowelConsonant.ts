@@ -6,7 +6,7 @@ let characters = [
     'u'
 ]
 
-function findVowelOrConsonat(str){
+let findVowelOrConsonant = (str: string) => {
     if(characters.includes(str)){
        return true
     }else{
@@ -14,5 +14,5 @@ function findVowelOrConsonat(str){
     }
 }
 
-let vowel_or_consonant = findVowelOrConsonat('a')
-console.log(vowel_or_consonant);
+let vowelOrConsonat = findVowelOrConsonant('a')
+console.log(vowelOrConsonat);
