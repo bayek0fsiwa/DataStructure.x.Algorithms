@@ -1,7 +1,7 @@
 // let reversedString: string = "apple"
 // console.log(reversedString.split('').reverse().join(''))
 
-let reverseString = (str) => {
+let reverseString = (str: string): string => {
     return str.split('').reverse().join('')
 }
 
