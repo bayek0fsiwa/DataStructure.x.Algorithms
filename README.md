@@ -1,1 +1,1 @@
-Data Structures & Algorithms in JavaScript & Python
+Data Structures X Algorithms X Programs in JavaScript & Python
