@@ -1,4 +1,4 @@
-function palindrome(str: string){
+let palindrome = (str: string) => {
     let pal = str.split('').reverse().join('')
     if (pal === str){
         return `The ${str} is a palindrome`
