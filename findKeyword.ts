@@ -25,13 +25,13 @@ let keywords = [
     "const"
 ]
 
-function findKeyWords(str){
-    if(keywords.includes(str)){
+let Keyword = (str) => {
+    if (keywords.includes(str)) {
         return true
-    }else{
+    }else {
         return false
     }
 }
 
-let key = findKeyWords("let")
+let key = Keyword("else")
 console.log(key);
